@@ -4,6 +4,7 @@ public class Array_1 {
       //Definir variables y arreglo
         String[] materias = {"MateDisc", "Calcdife", "FundInve", "FundProg","Quimica","DesaSust"};
         String[] unidades = {"Asignatura","U1", "U2", "U3", "U4", "U5"};
+        //Definiendo la matriz
         byte[][] matrix = new byte[6][4];
 
       //Pedir los datos dentro de la matriz
@@ -24,6 +25,7 @@ public class Array_1 {
                 System.out.print(matrix[i][j] + " ");
                 suma += matrix[i][j];
             }
+            //Operaciones y ultima impresion dentro de la matriz
             double promedio = suma / unidades.length;
             System.out.println(" " + promedio);
         }
