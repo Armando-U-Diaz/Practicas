@@ -6,7 +6,7 @@ public class Array_1 {
         String[] unidades = {"Asignatura","U1", "U2", "U3", "U4", "U5"};
         //Definiendo la matriz
         byte[][] matrix = new byte[6][4];
-
+// hoolla
       //Pedir los datos dentro de la matriz
         for (byte i = 0; i < materias.length; i++) {
             System.out.println("Calificacion de " + materias[i]);
