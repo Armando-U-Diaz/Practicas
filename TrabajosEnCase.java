@@ -1,7 +1,8 @@
 import javax.swing.JOptionPane;
+
 public class TrabajosEnCase {
     public static void main(String[] arm) {
-        int x, seleccion, n1, a = 0, b, c = 0, d = 0;
+        int x, seleccion, n1, a = 0, b, c = 0, d = 0, z, n;
 
         seleccion= Integer.parseInt(JOptionPane.showInputDialog("""
                 Selcion de operacion:
@@ -37,7 +38,27 @@ public class TrabajosEnCase {
                 }
                 break;
             case 3:
-
+                System.out.println("Pitagoras");
+                x=Integer.parseInt(JOptionPane.showInputDialog("Ingresa un numero"));
+                z = 1;
+                while (z <= x) {
+                    a = 1;
+                    while (a <= z) {
+                        n = 1;
+                        while (n <= z) {
+                            if ((Math.pow(2, x) + Math.pow(2, n)) == Math.pow(2, z)) {
+                                System.out.println("Resultado = " + a + "^2 + " + n + "^2 = " + z + "^2");
+                            }
+                            n ++;
+                        }
+                        a ++;
+                    }
+                    z ++;
+                }
+                break;
+            case 4:
+                
+                break;
         }
     }
 }
