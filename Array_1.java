@@ -9,7 +9,7 @@ public class Array_1 {
 // hoolla
       //Pedir los datos dentro de la matriz 
         for (byte i = 0; i < materias.length; i++) { 
-            System.out.println("Calificacion de " + materias[i]);
+            System.out.println("Calificacion de " + materias[i]); 
             for (byte j = 0; j < unidades.length; j  ++) {
                 matrix[i][j] = Byte.parseByte(JOptionPane.showInputDialog("Calificacion de " + unidades[j]));
             }
