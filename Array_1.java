@@ -7,7 +7,7 @@ public class Array_1 {
         //Definiendo la matriz
         byte[][] matrix = new byte[6][4];
 // hoolla
-      //Pedir los datos dentro de la matriz
+      //Pedir los datos dentro de la matriz 
         for (byte i = 0; i < materias.length; i++) { 
             System.out.println("Calificacion de " + materias[i]);
             for (byte j = 0; j < unidades.length; j  ++) {
